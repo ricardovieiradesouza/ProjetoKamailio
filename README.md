@@ -18,9 +18,10 @@ yum -y update && yum -y groupinstall core && yum -y groupinstall base && yum -y 
 
 yum install httpd mariadb-server php php-mysql php-gd php-curl rtpproxy
 
-# Confirme se o selinux está desativado
+Confirme se o selinux está desativado
 
 # Kamailio
+
 nano /etc/yum.repos.d/kamailio44.repo
 
 
@@ -60,6 +61,7 @@ mysql_secure_installation
 # Seguir instalação do MariaD
 
 vim /etc/kamailio/kamctlrc (descomente a linha DBENGINE) "DBENGINE=MYSQL"
+
 
 systemctl restart mariadb
 
@@ -123,7 +125,9 @@ systemctl restart kamailio
 
 
 # Criar o arquivo do Kamailio no systemd
+
 vim /etc/systemd/system/kamailio.service
+
 [Unit]
 Description=Kamailio - the Open Source SIP Server
 After=network-online.target
