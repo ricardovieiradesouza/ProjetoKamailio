@@ -201,6 +201,7 @@ vim /etc/httpd/conf.d/siremis.conf
 
 
 <Directory "/var/www/html/siremis">
+
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Order allow,deny
@@ -212,8 +213,10 @@ vim /etc/httpd/conf.d/siremis.conf
         <FilesMatch "\.inc$">
             Order deny,allow
             Deny from all
-        </FilesMatch>
+            </FilesMatch>
+  
   </Directory>
+
 
 <Directory "/var/www/html/openbiz">
     AllowOverride All
