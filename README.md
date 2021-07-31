@@ -84,14 +84,14 @@ Edite /etc/kamailio/kamailio.cfg , para que a parte superior do arquivo tenha a 
 
 # Adicione esta parte em torno da linha #240 com as outras instruções loadmodule
 
-###  -- for siremis CDRs --------------
+###  ===== for siremis CDRs ==============
 loadmodule "rtimer.so"
 loadmodule "sqlops.so"
 
 
 # Adicione o seguinte em torno da linha #460 no final da seção modparam antes da seção de lógica de roteamento.
 
-# -- for siremis CDRs --------------
+#### ====== for siremis CDRs ===========
 modparam("rtimer", "timer", "name=cdr;interval=300;mode=1;")
 modparam("rtimer", "exec", "timer=cdr;route=CDRS")
 modparam("sqlops", "sqlcon", "cb=>mysql://kamailio:kamailiorw@localhost/kamailio")
