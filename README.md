@@ -273,7 +273,7 @@ Execute o assistente de instalação na web a partir de um navegador: http://you
 
 
 
-Observe na imagem acima que você deve ter todas as 4 caixas marcadas na parte inferior para a primeira instalação.
+Observe na imagem abaixo que você deve ter todas as 4 caixas marcadas na parte inferior para a primeira instalação.
 
 
 
