@@ -46,6 +46,7 @@ yum install kamailio kamailio-presence kamailio-mysql kamailio-tls
 
 
 systemctl enable mariadb
+
 systemctl enable httpd
 
 
