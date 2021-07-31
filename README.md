@@ -84,7 +84,7 @@ Edite /etc/kamailio/kamailio.cfg , para que a parte superior do arquivo tenha a 
 
 # Adicione esta parte em torno da linha #240 com as outras instruções loadmodule
 
-# -- for siremis CDRs --------------
+###  -- for siremis CDRs --------------
 loadmodule "rtimer.so"
 loadmodule "sqlops.so"
 
