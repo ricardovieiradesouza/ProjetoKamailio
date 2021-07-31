@@ -118,9 +118,12 @@ modparam("sqlops", "sqlcon", "cb=>mysql://kamailio:kamailiorw@localhost/kamailio
 
 #======================================================
 
-route[CDRS] {
+route[CDRS] 
+    {
+    
     sql_query("cb","call kamailio_cdrs()","rb");
     sql_query("cb","call kamailio_rating('default')","rb");
+    
     }
 
 
