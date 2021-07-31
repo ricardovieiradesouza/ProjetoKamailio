@@ -272,6 +272,8 @@ Execute o assistente de instalação na web a partir de um navegador: http://you
 ![image](https://user-images.githubusercontent.com/48540103/127747898-fc749ce2-0720-417d-be10-5c50abc26583.png)
 
 
+![image](https://user-images.githubusercontent.com/48540103/127748837-4241abdf-1c3c-498b-8121-7fea663db0c2.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/48540103/127747939-ccfa0a65-9887-4c48-933a-94de4ff70027.png)
