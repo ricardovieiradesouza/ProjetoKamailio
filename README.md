@@ -113,8 +113,11 @@ modparam("sqlops", "sqlcon", "cb=>mysql://kamailio:kamailiorw@localhost/kamailio
 #Finalmente, adicione isso no final da seção de roteamento em torno da linha #910
 
 #======================================================
+
 #Populate CDRs Table of Siremis
+
 #======================================================
+
 route[CDRS] {
     sql_query("cb","call kamailio_cdrs()","rb");
     sql_query("cb","call kamailio_rating('default')","rb");
