@@ -218,14 +218,16 @@ vim /etc/httpd/conf.d/siremis.conf
   </Directory>
 
 
+
 <Directory "/var/www/html/openbiz">
     AllowOverride All
     Order deny,allow
     Deny from all
   </Directory>
 
+
 <Directory "/var/www/html/misc">
-    AllowOverride All
+AllowOverride All
     Order deny,allow
     Deny from all
   </Directory>
