@@ -11,3 +11,12 @@ Recursos:
 * status de presença
 * registros de detalhes de chamadas
 
+# Pré instalação
+
+yum -y update && yum -y groupinstall core && yum -y groupinstall base && yum -y install epel-release
+yum install httpd mariadb-server php php-mysql php-gd php-curl rtpproxy
+
+# Confirme se o selinux está desativado
+
+# Kamailio
+nano /etc/yum.repos.d/kamailio44.repo
