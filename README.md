@@ -45,4 +45,11 @@ yum install kamailio kamailio-presence kamailio-mysql kamailio-tls
 # Configure os servidores mysql e apache para iniciar na inicialização.
 
 
+systemctl enable mariadb
+systemctl enable httpd
+
+
+
+
+
 
