@@ -237,3 +237,9 @@ vim /etc/php.ini
 date.timezone = America/Sao_Paulo
 
 systemctl restart httpd
+
+
+Execute o assistente de instalação na web a partir de um navegador: http://your_server_ip_or_fqdn/siremis
+
+
+
