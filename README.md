@@ -36,6 +36,6 @@ yum install kamailio kamailio-presence kamailio-mysql kamailio-tls
 # Rtproxy é opcional se não estiver usando NAT
 
 # Configure os servidores mysql e apache para iniciar na inicialização.
-![image](https://user-images.githubusercontent.com/48540103/127727888-3ad25e49-24b0-4d2f-a37c-dc967d37b404.png)
+
 
 
