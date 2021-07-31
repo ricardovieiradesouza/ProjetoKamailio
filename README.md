@@ -75,12 +75,20 @@ Edite /etc/kamailio/kamailio.cfg , para que a parte superior do arquivo tenha a 
 
 #!KAMAILIO
 #!define WITH_MYSQL
+
 #!define WITH_AUTH
+
 #!define WITH_USRLOCDB
+
 #!define WITH_PRESENCE
+
 ##!define WITH_NAT
+
 ##!define WITH_TLS
+
 #!define WITH_ACCDB
+
+
 
 # Adicione esta parte em torno da linha #240 com as outras instruções loadmodule
 
