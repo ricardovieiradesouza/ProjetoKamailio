@@ -167,6 +167,8 @@ systemctl restart kamailio
 
 cd /usr/src
 wget http://siremis.asipto.com/pub/downloads/siremis/siremis-4.4.0.tgz
+Ultima versão 
+wget https://siremis.asipto.com/pub/downloads/siremis/siremis-5.3.0.tgz
 tar zxvf siremis*
 cp -a siremis*/. /var/www/html
 cd /var/www/html
